@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# 2types of routing in our page
+    client side routing
+    server side routing
+
+# LifeCycle method in class how it work
+
+    first constructor render
+    render method
+    componentdidmount render
+
+# LifeCycle method in class with multiple childeren component
+
+    parent constructor render
+    parent render method
+
+    first child constructor render
+    first child render method
+    second child constructor render
+    second child render method
+
+    <DOM UPDATED -IN SINGLE BATCH>
+    
+    first child componentdidmount render
+    second child componentdidmount render
+    parent componentdidmounte render
+
+# react LifeCycle method digram

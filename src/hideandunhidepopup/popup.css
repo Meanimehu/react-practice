@@ -1,0 +1,19 @@
+.popup-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Set overlay width */
+    height: 200px; /* Set overlay height */
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .popup button {
+    margin-top: 10px;
+  }
